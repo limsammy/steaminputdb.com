@@ -1,0 +1,15 @@
+---
+description: Project workflow and safety rules for the SteamInputDB fork
+alwaysApply: true
+---
+
+Follow the repository-root `AGENTS.md` and `BUILDING.md`.
+
+- Treat `origin` as the working fork and `upstream` as the read-only source.
+- Use Conventional Commits and keep commits atomic.
+- Preserve unrelated user changes and generated-file boundaries.
+- Never print or commit Steam API keys, cookies, or private Buddy responses.
+- The Windows Buddy API is not an MCP server. Use the documented PowerShell
+  bridge or a purpose-built adapter; do not invent MCP capabilities.
+- Prefer a workmux-managed branch for implementation. Use Cursor's own
+  worktrees only when workmux is not already managing the task.

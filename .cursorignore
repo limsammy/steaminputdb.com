@@ -1,0 +1,19 @@
+# Large source assets that are not useful as agent context.
+Controllers.ai
+Icon.ai
+frontend/ogimage.psd
+
+# Generated/dependency/build output.
+**/node_modules/
+**/dist/
+**/build/
+**/.svelte-kit/
+**/coverage/
+**/test-results/
+**/playwright-report/
+
+# Local configuration and secrets.
+**/.env
+**/.env.*
+!**/.env.example
+.workmux-local/

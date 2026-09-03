@@ -1,0 +1,32 @@
+# Project-local workmux defaults for the SteamInputDB fork.
+main_branch: main
+base_branch: auto
+merge_strategy: merge
+merge_keep: false
+worktree_dir: ../steaminputdb.com__worktrees
+worktree_naming: basename
+mode: window
+window_placement: after_current
+agent: codex
+
+agents:
+  codex: codex
+  cursor: cursor-agent
+  claude: claude
+
+panes:
+  - name: agent
+    command: <agent>
+    focus: true
+  - name: shell
+    split: horizontal
+    percentage: 30
+
+post_create:
+  - "<global>"
+  - git submodule update --init --recursive
+
+dashboard:
+  commit: "Review the diff, run relevant checks, and create a Conventional Commit."
+  merge: "!workmux merge"
+  preview_size: 60
