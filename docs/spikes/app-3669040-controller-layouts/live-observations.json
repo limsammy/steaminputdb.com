@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "app_id": "3669040",
+  "observed_on": "2026-09-03",
+  "steam_api_key_environment": {
+    "named_variable": "STEAM_API_KEY",
+    "present": false,
+    "method": "inspected environment variable names and presence only; no values were printed",
+    "effect": "direct IPublishedFileService/QueryFiles verification was not attempted"
+  },
+  "steaminputdb_raw_probe": {
+    "retrieved_at": "2026-09-03T08:48:42Z",
+    "method": "POST",
+    "url": "https://api.steaminputdb.com/v1/search/configs",
+    "request": {
+      "limit": 100,
+      "page": 1,
+      "query_text": "",
+      "raw": true,
+      "rank": {
+        "by": "vote",
+        "trending_period": 30
+      },
+      "filter": {
+        "app_id": "3669040",
+        "tags": [],
+        "excluded_tags": []
+      },
+      "include": {
+        "votes": true,
+        "tags": true
+      }
+    },
+    "http_status": 200,
+    "content_type": "application/json",
+    "response_body_shape": "object{total}",
+    "response_body": {
+      "total": 0
+    }
+  },
+  "browser_network": {
+    "retrieved_at": "2026-09-03T08:47Z",
+    "tool": "headless Google Chrome net log with a fresh temporary profile",
+    "navigation": {
+      "method": "GET",
+      "url": "https://www.steaminputdb.com/app/3669040?controller_type=controller_steamcontroller_gordon"
+    },
+    "public_api_requests_visible_to_browser": [],
+    "show_more_observed_at": "2026-09-03T08:54Z",
+    "show_more_button_found": true,
+    "controller_filters_before_show_more": [
+      "controller_triton",
+      "controller_steamcontroller_gordon",
+      "controller_neptune",
+      "controller_ps5",
+      "controller_ps4",
+      "controller_xbox360",
+      "controller_xboxone",
+      "controller_switch_pro",
+      "controller_switch2_pro",
+      "controller_8bitdo",
+      "controller_generic"
+    ],
+    "controller_filters_after_show_more": [
+      "controller_triton",
+      "controller_steamcontroller_gordon",
+      "controller_neptune",
+      "controller_ps5",
+      "controller_ps4",
+      "controller_xbox360",
+      "controller_xboxone",
+      "controller_switch_pro",
+      "controller_switch2_pro",
+      "controller_8bitdo",
+      "controller_generic",
+      "controller_xboxelite",
+      "controller_steamcontroller_headcrab",
+      "controller_ps5_edge",
+      "controller_ps3",
+      "controller_hori_steam",
+      "controller_mobile_touch",
+      "controller_rog_ally",
+      "controller_legion_go_s"
+    ],
+    "hydrated_page_config_value_shape": "empty object",
+    "server_rendered_message": "No results found",
+    "interpretation": "The app route performs config search during server rendering. The browser receives the empty result in hydrated page data, so no browser-origin request to api.steaminputdb.com appears for this navigation."
+  },
+  "buddy": {
+    "retrieved_at": "2026-09-03T08:46:59.8210511Z",
+    "transport": "powershell.exe Invoke-WebRequest to Windows localhost",
+    "ping": {
+      "path": "/v1/ping",
+      "http_status": 200,
+      "service": "SteamInputDB-Buddy",
+      "version": "v0.2.2"
+    },
+    "steam_status": {
+      "path": "/v1/steam/status",
+      "http_status": 200,
+      "steamRunning": true,
+      "steamPath": "[redacted-machine-path]",
+      "cefDebugEnableFilePresent": true,
+      "cefRemoteDebugReachable": true
+    },
+    "controllers_mapped": {
+      "path": "/v1/steam/controllers",
+      "http_status": 200,
+      "response_body_shape": "null",
+      "response_body": null,
+      "connected_controller_count": 0
+    },
+    "controllers_raw": {
+      "path": "/v1/steam/controllers?raw=true",
+      "http_status": 200,
+      "response_body_shape": "array[0]",
+      "response_body": [],
+      "connected_controller_count": 0
+    },
+    "app_lookup": {
+      "retrieved_at": "2026-09-03T08:47:10.2290636Z",
+      "path": "/v1/steam/apps",
+      "http_status": 200,
+      "app_3669040_known": false,
+      "matching_records": []
+    }
+  },
+  "privacy": {
+    "account_specific_data_committed": false,
+    "machine_specific_paths": "redacted",
+    "controller_serials_or_mac_addresses": "not returned because no controllers were connected"
+  }
+}

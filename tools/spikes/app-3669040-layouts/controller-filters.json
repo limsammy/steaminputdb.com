@@ -1,0 +1,21 @@
+[
+  {"type": "controller_triton", "name": "Steam Controller"},
+  {"type": "controller_steamcontroller_gordon", "name": "Steam Controller (2015)"},
+  {"type": "controller_neptune", "name": "Steam Deck"},
+  {"type": "controller_ps5", "name": "DualSense"},
+  {"type": "controller_ps4", "name": "DualShock 4"},
+  {"type": "controller_xbox360", "name": "Xbox 360"},
+  {"type": "controller_xboxone", "name": "Xbox One"},
+  {"type": "controller_xboxelite", "name": "Xbox Elite"},
+  {"type": "controller_switch_pro", "name": "Switch Pro"},
+  {"type": "controller_switch2_pro", "name": "Switch 2 Pro"},
+  {"type": "controller_8bitdo", "name": "8BitDo"},
+  {"type": "controller_generic", "name": "Generic"},
+  {"type": "controller_steamcontroller_headcrab", "name": "Steam Controller (Headcrab)"},
+  {"type": "controller_ps5_edge", "name": "DualSense Edge"},
+  {"type": "controller_ps3", "name": "DualShock 3"},
+  {"type": "controller_hori_steam", "name": "HoriPad Steam"},
+  {"type": "controller_mobile_touch", "name": "Mobile Touch"},
+  {"type": "controller_rog_ally", "name": "ASUS ROG Ally"},
+  {"type": "controller_legion_go_s", "name": "Lenovo Legion Go S"}
+]

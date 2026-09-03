@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "app_id": "3669040",
+  "started_at": "2026-09-03T08:51:49.545726Z",
+  "completed_at": "2026-09-03T08:52:12.451236Z",
+  "api_url": "https://api.steaminputdb.com/v1/search/configs",
+  "request_page_size": 100,
+  "request_template": {
+    "limit": 100,
+    "page": 1,
+    "query_text": "",
+    "raw": false,
+    "rank": {
+      "by": "vote",
+      "trending_period": 30
+    },
+    "filter": {
+      "app_id": "3669040",
+      "tags": [],
+      "excluded_tags": []
+    },
+    "include": {
+      "votes": true,
+      "tags": true
+    }
+  },
+  "controller_filter_options": [
+    {
+      "type": "controller_triton",
+      "name": "Steam Controller"
+    },
+    {
+      "type": "controller_steamcontroller_gordon",
+      "name": "Steam Controller (2015)"
+    },
+    {
+      "type": "controller_neptune",
+      "name": "Steam Deck"
+    },
+    {
+      "type": "controller_ps5",
+      "name": "DualSense"
+    },
+    {
+      "type": "controller_ps4",
+      "name": "DualShock 4"
+    },
+    {
+      "type": "controller_xbox360",
+      "name": "Xbox 360"
+    },
+    {
+      "type": "controller_xboxone",
+      "name": "Xbox One"
+    },
+    {
+      "type": "controller_xboxelite",
+      "name": "Xbox Elite"
+    },
+    {
+      "type": "controller_switch_pro",
+      "name": "Switch Pro"
+    },
+    {
+      "type": "controller_switch2_pro",
+      "name": "Switch 2 Pro"
+    },
+    {
+      "type": "controller_8bitdo",
+      "name": "8BitDo"
+    },
+    {
+      "type": "controller_generic",
+      "name": "Generic"
+    },
+    {
+      "type": "controller_steamcontroller_headcrab",
+      "name": "Steam Controller (Headcrab)"
+    },
+    {
+      "type": "controller_ps5_edge",
+      "name": "DualSense Edge"
+    },
+    {
+      "type": "controller_ps3",
+      "name": "DualShock 3"
+    },
+    {
+      "type": "controller_hori_steam",
+      "name": "HoriPad Steam"
+    },
+    {
+      "type": "controller_mobile_touch",
+      "name": "Mobile Touch"
+    },
+    {
+      "type": "controller_rog_ally",
+      "name": "ASUS ROG Ally"
+    },
+    {
+      "type": "controller_legion_go_s",
+      "name": "Lenovo Legion Go S"
+    }
+  ],
+  "controller_filter_source": {
+    "path": "tools/spikes/app-3669040-layouts/controller-filters.json",
+    "basis": "checked-in frontend CONTROLLER_LIST; live default-visible subset checked separately"
+  },
+  "app_page": {
+    "url": "https://www.steaminputdb.com/app/3669040",
+    "http_status": 200,
+    "content_type": "text/html",
+    "server_date": "Thu, 03 Sep 2026 08:51:50 GMT",
+    "retrieved_at": "2026-09-03T08:51:49.545944Z",
+    "response_bytes": 71010,
+    "response_sha256": "ca9dab7970b507769f6b0430b9dc2f625b9f351a5779badd0ce5d4fc6cd549ce",
+    "server_rendered_no_results": true,
+    "server_rendered_controller_filters": [
+      "controller_triton",
+      "controller_steamcontroller_gordon",
+      "controller_neptune",
+      "controller_ps5",
+      "controller_ps4",
+      "controller_xbox360",
+      "controller_xboxone",
+      "controller_switch_pro",
+      "controller_switch2_pro",
+      "controller_8bitdo",
+      "controller_generic"
+    ],
+    "note": "The server render contains the default-visible filters; Show More is client-rendered."
+  },
+  "queries": [
+    {
+      "controller_type": null,
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:51:52 GMT",
+      "retrieved_at": "2026-09-03T08:51:51.561541Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_triton",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:51:53 GMT",
+      "retrieved_at": "2026-09-03T08:51:52.893556Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_steamcontroller_gordon",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:51:54 GMT",
+      "retrieved_at": "2026-09-03T08:51:54.021702Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_neptune",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:51:55 GMT",
+      "retrieved_at": "2026-09-03T08:51:55.371973Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_ps5",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:51:56 GMT",
+      "retrieved_at": "2026-09-03T08:51:56.396031Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_ps4",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:51:57 GMT",
+      "retrieved_at": "2026-09-03T08:51:57.353356Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_xbox360",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:51:58 GMT",
+      "retrieved_at": "2026-09-03T08:51:58.418113Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_xboxone",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:51:59 GMT",
+      "retrieved_at": "2026-09-03T08:51:59.648828Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_xboxelite",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:00 GMT",
+      "retrieved_at": "2026-09-03T08:52:00.795113Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_switch_pro",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:02 GMT",
+      "retrieved_at": "2026-09-03T08:52:02.031942Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_switch2_pro",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:03 GMT",
+      "retrieved_at": "2026-09-03T08:52:03.407200Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_8bitdo",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:04 GMT",
+      "retrieved_at": "2026-09-03T08:52:04.450849Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_generic",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:05 GMT",
+      "retrieved_at": "2026-09-03T08:52:05.479301Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_steamcontroller_headcrab",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:06 GMT",
+      "retrieved_at": "2026-09-03T08:52:06.424777Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_ps5_edge",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:07 GMT",
+      "retrieved_at": "2026-09-03T08:52:07.507636Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_ps3",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:08 GMT",
+      "retrieved_at": "2026-09-03T08:52:08.552337Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_hori_steam",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:09 GMT",
+      "retrieved_at": "2026-09-03T08:52:08.309940Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_mobile_touch",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:10 GMT",
+      "retrieved_at": "2026-09-03T08:52:09.426469Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_rog_ally",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:11 GMT",
+      "retrieved_at": "2026-09-03T08:52:10.458197Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    },
+    {
+      "controller_type": "controller_legion_go_s",
+      "page": 1,
+      "requested_page_size": 100,
+      "http_status": 200,
+      "content_type": "application/json",
+      "server_date": "Thu, 03 Sep 2026 08:52:12 GMT",
+      "retrieved_at": "2026-09-03T08:52:11.450432Z",
+      "response_body_shape": "empty_object",
+      "response_keys": [],
+      "reported_total": 0,
+      "items_returned": 0,
+      "response_bytes": 3,
+      "response_sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "empty_response_body": "{}\n"
+    }
+  ],
+  "summary": {
+    "query_count": 20,
+    "all_http_200": true,
+    "all_zero": true,
+    "deduplicated_layout_count": 0
+  }
+}

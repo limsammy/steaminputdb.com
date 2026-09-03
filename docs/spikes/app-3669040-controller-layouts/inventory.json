@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "app_id": "3669040",
+  "layout_count": 0,
+  "retrieved_at": "2026-09-03T08:51:49.545726Z",
+  "source": "https://api.steaminputdb.com/v1/search/configs",
+  "deduplicated_by": "file_id",
+  "layouts": []
+}
