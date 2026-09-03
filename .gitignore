@@ -16,6 +16,10 @@ docker-data/
 # Test binary, built with `go test -c`
 *.test
 
+# Python spike/test artifacts
+__pycache__/
+*.py[cod]
+
 # Output of the go coverage tool
 *.out
 coverage.html

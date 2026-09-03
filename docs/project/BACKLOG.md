@@ -11,7 +11,7 @@ into a diary.
 
 | ID | Task | State | Branch / issue | Done when |
 | --- | --- | --- | --- | --- |
-| SIDB-001 | Enumerate every layout for app 3669040 and reconcile the website/API discrepancy | ready | `spike/app-3669040-layouts` | Reproducible inventory and evidence-backed completeness statement exist |
+| SIDB-002 | Build and validate a generalized Ren'Py Steam Controller profile | blocked on on-device test | — | Mapping, Steam-saved Personal layout, and on-device test notes exist |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -21,9 +21,18 @@ into a diary.
 
 | ID | Task | Depends on | Done when |
 | --- | --- | --- | --- |
-| SIDB-002 | Build and validate a generalized Ren'Py Steam Controller profile | SIDB-001 | Mapping, importable artifact or documented creation steps, and on-device test notes exist |
 | SIDB-003 | Decide whether layout enumeration belongs in a standalone tool or the fork | SIDB-001 | ADR records scope, API boundary, and maintenance trade-off |
 | SIDB-004 | Prototype a safe Cursor MCP adapter for the Windows Buddy API | SIDB-001 | Read-only ping/status/controllers work from WSL; mutating calls remain approval-gated |
+
+<!-- markdownlint-enable MD013 -->
+
+## Completed
+
+<!-- markdownlint-disable MD013 -->
+
+| ID | Result | Commit |
+| --- | --- | --- |
+| SIDB-001 | Zero public layouts found after 20/20 successful searches; filter/API discrepancy documented | `c437df9` |
 
 <!-- markdownlint-enable MD013 -->
 

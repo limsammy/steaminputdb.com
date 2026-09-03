@@ -23,7 +23,7 @@ client-side **Show More** interaction.
 Run the tests with:
 
 ```sh
-python3 -m unittest discover \
+python3 -B -m unittest discover \
   -s tools/spikes/app-3669040-layouts \
   -p 'test_*.py' -v
 ```

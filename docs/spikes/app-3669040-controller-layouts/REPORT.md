@@ -219,7 +219,7 @@ change, but no search fix or commit explaining the empty result.
 ## Checks
 
 ```text
-python3 -m unittest discover \
+python3 -B -m unittest discover \
   -s tools/spikes/app-3669040-layouts \
   -p 'test_*.py' -v
 Ran 5 tests ... OK
